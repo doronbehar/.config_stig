@@ -1,0 +1,5 @@
+# Poll every 10 seconds
+set tui.poll 10
+
+# Default columns in torrent lists
+set columns.torrents name ratio rate-up rate-down
