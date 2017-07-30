@@ -3,3 +3,7 @@ set tui.poll 10
 
 # Default columns in torrent lists
 set columns.torrents name ratio rate-up rate-down
+
+# Use a different binding for marking all torrents
+unbind --context torrent 'alt-space'
+bind A mark --toggle --all
