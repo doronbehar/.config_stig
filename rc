@@ -1,6 +1,10 @@
 # Poll every 10 seconds
 set tui.poll 10
 
+# connection
+set connect.password:eval pass software/transmission
+set connect.user transmission
+
 # Default columns in torrent lists
 set columns.torrents name ratio rate-up rate-down
 
