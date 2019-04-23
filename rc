@@ -2,7 +2,7 @@
 set tui.poll 10
 
 # connection
-set connect.password:eval pass software/common/transmission
+set connect.password:eval gopass show -f software/common/transmission
 set connect.user transmission
 
 # Default columns in torrent lists
